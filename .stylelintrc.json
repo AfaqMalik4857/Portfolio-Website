@@ -2,9 +2,14 @@
   "rules": {
     "declaration-block-no-duplicate-properties": true,
     "no-duplicate-selectors": true,
-    "property-case": true,
-    "value-keyword-case": true,
-    "selector-type-case": true,
+    "property-no-unknown": true,
+    "value-keyword-case": [
+      "lower",
+      {
+        "ignoreKeywords": ["inherit", "initial", "unset"]
+      }
+    ],
+    "selector-type-no-unknown": true,
     "block-no-empty": true
   }
 }
