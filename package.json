@@ -1,16 +1,17 @@
 {
   "name": "portfolio-website",
   "version": "1.0.0",
-  "description": "",
+  "description": "A portfolio website",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Your Name",
   "license": "ISC",
   "devDependencies": {
-    "stylelint-config-standard": "^37.0.0"
-    "stylelint": "^16.13.2"
+    "htmlhint": "^1.2.2",
+    "stylelint": "^16.13.0",
+    "stylelint-config-standard": "^30.0.0"
   }
 }
