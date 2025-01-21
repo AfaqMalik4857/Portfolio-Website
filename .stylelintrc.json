@@ -1,8 +1,5 @@
 {
-feature/about-page
   "extends": "stylelint-config-standard",
-
- develop
   "rules": {
     "declaration-block-no-duplicate-properties": true,
     "no-duplicate-selectors": true,
